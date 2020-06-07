@@ -9,9 +9,8 @@ const names = [
 ];
 
 const randomName = () => {
-  const index = Math.floor(Math.random() * messages.length);
-  const message = messages[index];
-  console.log(message);
+  const index = Math.floor(Math.random() * names.length);
+  return names[index];
 };
 
 module.exports = { randomName }

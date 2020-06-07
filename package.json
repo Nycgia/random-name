@@ -12,5 +12,9 @@
     "npm"
   ],
   "author": "Pedro Muñoz <pmunoz@protonmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "random-name": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
